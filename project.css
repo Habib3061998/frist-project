@@ -50,6 +50,7 @@ align-items: center;
 background-image:url("4775334_19366.jpg"),
 linear-gradient(20deg,rgba(143, 139, 190, 0.836), rgb(255, 241, 241));
 
+
 } 
 
 
@@ -88,8 +89,43 @@ color: rgb(134, 21, 49);
 
 }
 
-.logo{
+.about-container{
+height:50vh;
+ display: flex;
+ justify-content: space-around;
+ align-items:center;
+ flex-direction: row-reverse;
+ padding:30px;
+ background-color: rgb(216, 186, 186);
+ 
+ 
 
-
-    
 }
+
+.title{
+text-align: center;
+padding-top: 20px;
+
+
+}
+
+
+.about-text{
+margin-left:100px;
+
+}
+
+
+ .about-another-text{
+    margin-left:100px;
+ }
+
+ .btn1{
+
+padding: 10px 20px ;
+ background-color: rgba(135, 14, 235, 0.548);
+ cursor: pointer;
+ color: rgb(1, 230, 153);
+ border: none;
+ margin-left:350px;
+ }
