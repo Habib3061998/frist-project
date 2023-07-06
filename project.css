@@ -1,51 +1,95 @@
 *{
     margin:0px;
-    padding:0px;
+    padding: 0px;
+}
+
+.manu-container{
+background-color: beige;
+padding: 2px;
+list-style:none;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
 
 }
 
+.logo-photo{
+    width: 150px;
 
-h1{
- color: magenta;
+}
+
+.menus{
+ display:flex;
+
+}
+
+.item{
+    margin-right:20px;
+    padding:10px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.item:hover{
+ color: blueviolet;
+
+}
+
+.banner-img{
+ width: 400px;
+
+}
+
+.banner-container{
+display: flex;
+justify-content: space-around;
+height: 100vh;
+align-items: center;
+background-image:url("4775334_19366.jpg"),
+linear-gradient(20deg,rgba(143, 139, 190, 0.836), rgb(255, 241, 241));
+
+} 
+
+
+.titel{
+ font-size:5rem;
+ color: rgb(69, 195, 204);
+
+}
+
+.fontsize{
+    font-size: 15rem;
+    color: rgb(136, 109, 211);
+    text-shadow: 3px 3px 3px black;
+}
+
+
+
+.totel{
+font-size:18px;
+margin-top:18px;
+padding-bottom: 15px;
+}
+
+.btn{
+ padding: 10px 20px ;
+ background-color: rgba(135, 14, 235, 0.548);
  cursor: pointer;
+ color: rgb(1, 230, 153);
+ border: none;
 
-
-}
-
-
-
-
-.container{
-    display:flex;
-    justify-content:  space-between;
-    align-items: center;
-    flex-direction: row-reverse;
  
 }
 
-.box{
-padding:20px;
-background-color:aquamarine;
-margin:100px;
-height:50px;
-
-}
-  
-
-.box1{
-background-color: blueviolet;
-padding: 20px;
-margin: 100px;
-height: 50px;
-
+.btn:hover{
+color: rgb(134, 21, 49);
 
 }
 
-.box2{
+.logo{
 
-    background-color: chartreuse;
-    padding: 20px;
-    margin:100px;
-    height:50px;
 
+    
 }
